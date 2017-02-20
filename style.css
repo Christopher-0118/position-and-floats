@@ -1,0 +1,143 @@
+body {
+    height: 2000px;
+    margin: 0;
+    padding: 0;    
+}
+
+.container {
+    height: 787px;
+    width: 605px;
+    margin: 201px auto 0 auto;
+    position: relative;   
+}
+
+.page {
+    height: 746px;
+    width: 490px;
+    padding: 31px;
+    position: absolute;
+    border: 1px solid black
+}
+
+.page_1 {
+    background: #ebebeb;
+    top: 0;
+    left: 0;
+    z-index: 3;
+}
+
+.page_2 {
+    background: #cccccc;
+    top: 20px;
+    left: 20px;
+    z-index: 2;
+}
+
+.page_3 {
+    background: #acacac;
+    top: 40px;
+    left: 40px;
+    z-index: 1;
+}
+
+.bookmark {
+    height: 33px;
+    width: 114px;
+    position: absolute;
+    border: 1px solid black;
+    border-radius: 0 10px 10px 0; 
+}
+
+.bookmark_1 {
+    background: #f68e56;
+    top: 38px;
+    right: -83px;
+    z-index: 3;
+}
+
+.bookmark_2 {
+    background: #39b54a;
+    top: 49px;
+    right: -52px;
+    z-index: 2;
+}
+
+.bookmark_3 {
+    background: #00aeef;
+    top: 60px;
+    right: -21px;
+    z-index: 1;
+}
+.share {
+    margin: 920px 0 auto auto;
+    height: 70px;
+    width: 88px;
+    position: fixed; 
+    
+    border: 1px solid orange;
+}
+
+.image_1 {
+    height: 112px;
+    width: 207px;
+    top: 76px;
+    left: 0;
+    float: left;
+    padding: 0 18px 18px 0;
+    overflow: hidden;
+}
+
+.image_2 {
+    height: 140px;
+    width: 141px;    
+    top: 262px;
+    right: 0;
+    float: right;
+    padding: 18px 0 0 18px;
+    overflow: hidden;
+}
+
+.image {
+    height: 88px;
+    width: 194px;
+}
+
+.image_3 {
+    right: 31px;
+    bottom: 200px;
+    float: right;
+    overflow: hidden;
+}
+.image_4 {
+    bottom: 200px;
+    left: 31px;    
+}
+
+.image_5 {
+    right: 31px;
+    bottom: 96px;
+    float: right;
+    overflow: hidden;
+}
+
+.image_6 {
+    bottom: 96px;
+    left: 31px;   
+}
+
+@font-face {
+    font-family: 'PT Sans', sans-serif;
+    src: "https://fonts.googleapis.com/css?family=PT+Sans"; /* Путь к файлу со шрифтом */
+   }
+
+.text {
+    font-family: 'PT Sans', sans-serif;
+}
+
+.text_2, .text_3 {
+    font-size: 9.18pt;
+}
+
+.text_5 {
+    font-size: 8pt;
+}
