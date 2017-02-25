@@ -14,9 +14,9 @@ body {
 .page {
     height: 746px;
     width: 490px;
-    padding: 31px;
+    padding: 10px 31px 47px 31px;
     position: absolute;
-    border: 1px solid black
+    border: 2px solid black
 }
 
 .page_1 {
@@ -44,7 +44,7 @@ body {
     height: 33px;
     width: 114px;
     position: absolute;
-    border: 1px solid black;
+    border: 2px solid black;
     border-radius: 0 10px 10px 0; 
 }
 
@@ -52,7 +52,7 @@ body {
     background: #f68e56;
     top: 38px;
     right: -83px;
-    z-index: 3;
+    z-index: 3;   
 }
 
 .bookmark_2 {
@@ -68,66 +68,57 @@ body {
     right: -21px;
     z-index: 1;
 }
-.share {
-    margin: 920px 0 auto auto;
-    height: 70px;
-    width: 88px;
-    position: fixed; 
-    
-    border: 1px solid orange;
-}
 
 .image_1 {
     height: 112px;
     width: 207px;
-    top: 76px;
     left: 0;
     float: left;
     padding: 0 18px 18px 0;
-    overflow: hidden;
 }
 
 .image_2 {
-    height: 140px;
+    height: 140x;
     width: 141px;    
     top: 262px;
     right: 0;
     float: right;
-    padding: 18px 0 0 18px;
-    overflow: hidden;
+    padding: 0 0 19px 6px;    
 }
 
 .image {
     height: 88px;
     width: 194px;
+    margin: 0 0 14px 0;
 }
 
 .image_3 {
+    bottom: 200px;
+    left: 31px;     
+}
+
+.image_4 {
     right: 31px;
     bottom: 200px;
     float: right;
-    overflow: hidden;
-}
-.image_4 {
-    bottom: 200px;
-    left: 31px;    
+    overflow: hidden;      
 }
 
 .image_5 {
-    right: 31px;
     bottom: 96px;
-    float: right;
-    overflow: hidden;
+    left: 31px;    
 }
 
 .image_6 {
+    right: 31px;
     bottom: 96px;
-    left: 31px;   
+    float: right;
+    overflow: hidden;    
 }
 
 @font-face {
     font-family: 'PT Sans', sans-serif;
-    src: "https://fonts.googleapis.com/css?family=PT+Sans"; /* Путь к файлу со шрифтом */
+    src: "https://fonts.googleapis.com/css?family=PT+Sans";
    }
 
 .text {
@@ -136,8 +127,38 @@ body {
 
 .text_2, .text_3 {
     font-size: 9.18pt;
+    overflow: hidden;
+}
+
+.text_4 {
+    font-size: 14pt;
 }
 
 .text_5 {
     font-size: 8pt;
+    text-align: center;
+}
+
+.text_6 {
+    margin: 0;
+    text-align: center;
+}
+
+.share {
+    height: 61px;
+    width: 79px;
+    position: fixed;
+    padding: 0 9px 9px 9px; 
+    top: 500px;
+    right: 0;
+    background: #fbaf5d;
+    border: 1px solid black;
+}
+
+.icon {
+    height: 18px;
+    width: 75px;
+    position: absolute;
+    top: 32px;
+    left: 9px;
 }
